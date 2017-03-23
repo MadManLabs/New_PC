@@ -1,0 +1,24 @@
+Beskrivelse:
+
+De to scripts kan bruges til at tage en backup/gendanne bogmærker (IE) og email-signaturer når en bruger får en ny PC.
+
+Backup.bat skal køres på den gamle PC som brugeren skal have skiftet ud. Scriptet tager en kopi af både bogmærker (IE) og email-signaturer der er gemt lokalt, og kopierer dem over på P-drevet.
+
+Restore.bat køres på den nye PC som brugerne får. Her vil den sørge for at både bogmærker og email-signaturer bliver kopieret over på den nye maskine, og du får muligheden for at slette kopien fra P-drevet. 
+
+--------------------------
+GUIDE:
+
+Backup:
+Sørg for du har adgang til P-drevet på den gamle PC
+Kør scriptet Backup.bat på den gamle PC, og tjek om filerne er kopieret over i mappen ”.NyPC” på P-drevet
+
+
+Restore:
+Sørg for du har adgang til P-drevet på den nye PC
+Kør scriptet Restore.bat på den nye PC, for at gendanne bogmærker og signaturer
+Her vil den spørge om du vil slette backuppen (y/n). Slet først backuppen når du har tjekket om bogmærker og signaturer er gendannet.
+
+Tjek om bogmærker og signaturer er gendannet:
+Bogmærker kan findes ved at starte Internet Explorer og klikke på stjernen oppe i højre hjørne
+Signaturer kan findes ved at starte Outlook, Filer -> Indstillinger -> Mail/Post -> Signaturer
